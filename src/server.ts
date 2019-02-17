@@ -9,6 +9,7 @@ import { ApplicationModule } from './modules/application.module';
 
 async function bootstrap() {
   const app = await NestFactory.create(ApplicationModule);
+  app.useStaticAssets(`${__dirname}/public`);
   await app.listen(parseInt(process.env.PORT, 10) || 3000);
 }
 bootstrap();
