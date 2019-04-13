@@ -47,7 +47,7 @@
     "@nestjs/testing": "^5.5.0",
     "@nestjs/websockets": "^5.5.0",
     "dotenv": "^6.2.0",
-    "public-transport-js": "^0.3.0",
+    "public-transport-js": "^0.7.0",
     "reflect-metadata": "^0.1.12",
     "rxjs": "^6.3.3"
   }
