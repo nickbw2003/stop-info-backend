@@ -11,6 +11,7 @@ The following routes are currently available through the base route `/api/v1/` o
 | `GET stations/byName/:name`                       | Returns all stations matching the `name` path param                                          |
 | `GET stations/byLatLng/:lat/:lng`                 | Returns all stations around the coordinate passed by `lat` and `lng` path params             |
 | `GET departures/byOriginStation/:originStationId` | Returns all upcoming departures of a station which is passed by `originStationId` path param |
+| `GET networks`                                    | Returns information of all available public transport networks                               |
 
 **Note**: Queries are always made for a single public transport network, which has to be applied to requests for each of these routes as HTTP header `x-network`. This header is mandatory and can have the following values:
 
