@@ -29,11 +29,11 @@
     "@types/jest": "^23.3.10",
     "@types/node": "^10.12.18",
     "@types/supertest": "^2.0.7",
-    "jest": "^23.6.0",
+    "jest": "^24.8.0",
     "nodemon": "^1.18.9",
     "prettier": "^1.15.3",
     "supertest": "^3.3.0",
-    "ts-jest": "^23.10.5",
+    "ts-jest": "^24.0.2",
     "ts-node": "^7.0.1",
     "tslint": "^5.12.0",
     "tslint-config-airbnb": "^5.11.1",
@@ -41,13 +41,13 @@
     "typescript": "^3.2.2"
   },
   "dependencies": {
-    "@nestjs/common": "^5.5.0",
-    "@nestjs/core": "^5.5.0",
-    "@nestjs/microservices": "^5.5.0",
-    "@nestjs/testing": "^5.5.0",
-    "@nestjs/websockets": "^5.5.0",
+    "@nestjs/common": "^6.3.1",
+    "@nestjs/core": "^6.3.1",
+    "@nestjs/microservices": "^6.3.1",
+    "@nestjs/testing": "^6.3.1",
+    "@nestjs/websockets": "^6.3.1",
     "dotenv": "^6.2.0",
-    "public-transport-js": "^0.7.0",
+    "public-transport-js": "^0.8.0",
     "reflect-metadata": "^0.1.12",
     "rxjs": "^6.3.3"
   }
