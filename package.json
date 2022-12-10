@@ -50,7 +50,7 @@
   "dependencies": {
     "@nestjs/common": "^6.10.13",
     "@nestjs/core": "^6.10.13",
-    "@nestjs/platform-express": "6.10.12",
+    "@nestjs/platform-express": "9.2.1",
     "dotenv": "^8.2.0",
     "public-transport-js": "^0.15.0",
     "reflect-metadata": "^0.1.13",
